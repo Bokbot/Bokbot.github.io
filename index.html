@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>BokBot - WebHosting Cooperative Foundation Projects</title>
@@ -15,7 +10,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-
 		<!-- Header -->
 			<header id="header">
 				<h1>BokBot</h1>
@@ -30,8 +24,11 @@
 				<input type="submit" value="Sign Up" />
 			</form> -->
 		<!-- Signup Form TinyLetter Mod -->
- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/bokbot" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bokbot', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
-
+ 			<form id="signup-form" action="https://tinyletter.com/bokbot" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bokbot', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                        <label for="tlemail">Email address to bok at? </label>
+                        <input type="text" style="width:420px" name="email" id="tlemail" />
+                        <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe!" />
+                        </form>
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
