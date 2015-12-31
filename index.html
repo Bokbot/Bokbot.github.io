@@ -10,12 +10,16 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-		<!-- Header -->
+	
+			<!-- Header -->
 			<header id="header">
 				<h1>BokBot</h1>
 				<p>Defending your dinosaurs from universal forces never seemed so educational.<br />
 				 Putting together IoT, gcc, backyard poultry, and community.<br />
 			         A <a href="http://foundation.webhosting.coop/">WebHosting Cooperative Foundation</a> community initiative.</p>
+				You can join our mailing list and stay up-to-date on the BokBot!<br >
+				 To join please provide your email below and hit subscribe!<br />
+				We will never share your email address; It's bad chicken karma.<br />
 			</header>
 
 		<!-- Signup Form Default
@@ -23,12 +27,15 @@
 				<input type="email" name="email" id="email" placeholder="Email Address" />
 				<input type="submit" value="Sign Up" />
 			</form> -->
+
 		<!-- Signup Form TinyLetter Mod -->
-		        <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/bokbot" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bokbot', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-	        	<p><label for="tlemail">Enter your email address</label></p>
-		        <p><input type="text" style="width:240px" name="email" id="tlemail" /></p>
-		        <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe!" />
-		        </form>
+ 			<form action="https://tinyletter.com/bokbot" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bokbot', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+			<label for="tlemail">Email address to bok at? </label>
+			<input type="text" style="width:320px" name="email" id="tlemail" /><br />
+			<input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe!" />
+			</form>
+	
+	
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
